@@ -56,6 +56,12 @@ const styles = StyleSheet.create({
     headerPhoto: {
         borderRadius: 25
     },
+    headerTxt: {
+        fontSize: 14,
+        fontWeight: 'bold',
+        lineHeight: 19,
+        color: '#151515'
+    },
 });
 
 export default styles;

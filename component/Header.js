@@ -17,9 +17,9 @@ class Header extends React.Component {
             <View style={styles.header}>
                 <Image source={require('../assets/menu.png')} style={styles.headerImg} />
                 <View style={styles.headerUser}>
-                    <Image source={require('../assets/user.png')} style={styles.headerPhoto}/>
-                    <Text>Johnissimus Van-Doe</Text>
-                    <Image source={require('../assets/down.png')}/>
+                    <Image source={require('../assets/user.png')} style={styles.headerPhoto} />
+                    <Text style={styles.headerTxt}>Johnissimus Van-Doe</Text>
+                    <Image source={require('../assets/down.png')} />
                 </View>
             </View>
         )
